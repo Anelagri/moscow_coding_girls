@@ -40,12 +40,14 @@
 	text-transform: uppercase;
 	font-size: 15px;
 	margin: 10px 0 0 200px;
-}
 
 }
 .my-class{
 	background: #a2ca28;
 	
+}
+.link-ben{
+	color: white;
 }
 .block-link{
 	color: white;
@@ -55,12 +57,16 @@
 
 
 }
+.link{
+	color: #a2ca28;
+}
 .box{
 	margin: 30px 40px 0 40px;
 }
 .block{
 	display: flex;
 	justify-content: space-between;
+	padding: 60px 0 50px 0px;
 	width: 1188px;
 	margin: 0 auto;
 }
@@ -74,10 +80,10 @@
 
 }
 .text-one{
-	margin: 30px 0px 0 40px;
-	height: 394px;
-	width: 404px;
+	
+    padding: 30px 40px 50px 40px;
 	text-align: center;
+	background: #fff;
 } 
 .title-one{
 	color: #fd634e;
@@ -85,13 +91,6 @@
 	text-transform: uppercase;
 }
 
-
-
-.text-two{
-	margin: 30px 0px 0 40px;
-	height: 394px;
-	width: 404px;
-}
 .title-two{
 	color: #a2ca28;
 	font-size: 35px;
