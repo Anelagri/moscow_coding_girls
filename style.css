@@ -1,0 +1,98 @@
+.menu-link {
+	color:white;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin: 30px 40px 0 40px;
+
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+}
+ 
+
+.menu{
+	display: flex;
+	width: 700px;
+	justify-content: space-between;
+	list-style: none;
+	margin: 30px 60 0 40px;
+}
+
+.background-image{
+	background-image: url("./images/background.jpg");
+	height: 890px;
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+} 
+
+.title{
+	color: white;
+	text-transform: uppercase;
+	font-size: 40px;
+	margin: 500px 0 0 40px;
+}
+
+.subtitle{
+	color: white;
+	text-transform: uppercase;
+	font-size: 15px;
+	margin: 10px 0 0 200px;
+
+}
+.my-class{
+	background: #a2ca28;
+	
+}
+.link-ben{
+	color: white;
+}
+.block-link{
+	color: white;
+	text-transform: capitalize;
+	list-style: none;
+	margin: 30px 40px 0 40px;
+
+
+}
+.link{
+	color: #a2ca28;
+}
+.box{
+	margin: 30px 40px 0 40px;
+}
+.block{
+	display: flex;
+	justify-content: space-between;
+	padding: 60px 0 50px 0px;
+	width: 1188px;
+	margin: 0 auto;
+}
+.block-one{
+     display: flex;
+     justify-content: space-between;
+     width: 1188px;
+     margin: 0 auto;
+	
+
+
+}
+.text-one{
+	
+    padding: 30px 40px 50px 40px;
+	text-align: center;
+	background: #fff;
+} 
+.title-one{
+	color: #fd634e;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.title-two{
+	color: #a2ca28;
+	font-size: 35px;
+	text-transform: uppercase;
+}
