@@ -1,14 +1,49 @@
+@font-face{
+	src: url("./fonts/AvenirNext/AvenirNextCyr-Regular.ttf");
+	font-family:AvenirNext;
+	font-weight: 400;
+}
+@font-face{
+	src: url("./fonts/AvenirNext/AvenirNextCyr-Light.ttf");
+	font-family:AvenirNext;
+	font-weight: 100;
+}
+@font-face{
+	src: url("./fonts/OpenSans/OpenSans-Bold.ttf");
+	font-family:OpenSans;
+	font-weight: 700;
+}
+
+@font-face{
+	src: url("./fonts/OpenSans/OpenSans-Regular.ttf");
+	font-family:OpenSans;
+	font-weight: 400;
+}
+@font-face{
+	src: url("./fonts/ProximaNova/ProximaNova-Reg.ttf");
+	font-family:ProximaNova;
+	font-weight: 400;
+}
+@font-face{
+	src: url("./fonts/OpenSans/OpenSans-Light.ttf");
+	font-family:OpenSans;
+	font-weight: 100;
+}	
 .menu-link {
 	color:white;
 	font-size: 13px;
 	text-transform: uppercase;
 	margin: 30px 40px 0 40px;
+	font-family: AvenirNext, san-serif;
+	font-weight: 400;
 
 }
 
 .header{
 	display: flex;
 	justify-content: space-between;
+
+
 }
  
 
@@ -33,6 +68,8 @@
 	text-transform: uppercase;
 	font-size: 40px;
 	margin: 500px 0 0 40px;
+	font-family: AvenirNext, san-serif;
+	font-weight: 100;
 }
 
 .subtitle{
@@ -40,6 +77,8 @@
 	text-transform: uppercase;
 	font-size: 15px;
 	margin: 10px 0 0 200px;
+	font-family: OpenSans, san-serif;
+	font-weight: 700;
 
 }
 .my-class{
@@ -48,17 +87,39 @@
 }
 .link-ben{
 	color: white;
+	font-family:ProximaNova, san-serif;
+	font-weight: 400;
+
 }
 .block-link{
 	color: white;
-	text-transform: capitalize;
+	text-transform: none;
 	list-style: none;
-	margin: 30px 40px 0 40px;
+	margin: 0 auto;
+	padding: 0 30px 0 0;
 
 
 }
+
+.benefits-image{
+	height: 60px;
+}
+.image-hover{
+	width: 794px;
+	height: 394px;
+
+}
+.image-hover:before{
+	content:'';
+	display: block;
+	height: 100%;
+	width:100%;
+	background: rgba(0, 0, 0, 0,5);
+}
 .link{
 	color: #a2ca28;
+	font-family:OpenSans, san-serif;
+	font-weight: 400;
 }
 .box{
 	margin: 30px 40px 0 40px;
@@ -74,9 +135,21 @@
      display: flex;
      justify-content: space-between;
      width: 1188px;
+     height: 400px;
      margin: 0 auto;
-	
 
+}
+
+.name{
+	font-family:OpenSans, san-serif;
+	font-weight: 400;
+	text-transform: none;
+
+}
+.name_one{
+	font-family:ProximaNova, san-serif;
+	font-weight: 400;
+	padding: 0 10px 0 0;
 
 }
 .text-one{
@@ -89,10 +162,61 @@
 	color: #fd634e;
 	font-size: 14px;
 	text-transform: uppercase;
-}
+	font-family:OpenSans, san-serif;
+	font-weight: 100;
 
+}
+.name_two{
+	font-family:OpenSans, san-serif;
+	font-weight: 400;
+
+}
+.input{
+	color: #83969f;
+	padding: 10px 20px 10px 20px;
+	font-size: 14px;
+	font-family:ProximaNova, san-serif;
+	font-weight: 400;
+
+}
+.inform{
+	display: flex;
+	justify-content: space-between;
+}
+.button{
+	background: #a2ca28;
+	font-size: 15px;
+	padding: 10px 20px 10px 20px;
+	font-family:ProximaNova, san-serif;
+	font-weight: 400; 
+	color: white
+
+}
 .title-two{
 	color: #a2ca28;
 	font-size: 35px;
 	text-transform: uppercase;
+	font-family:OpenSans, san-serif;
+	font-weight: 100;
+}
+
+.menu_two{
+	display: flex;
+	width: 700px;
+	justify-content: space-between;
+	list-style: none;
+	margin: 30px 60 0 40px;
+
+}
+.container{
+	width: 1188px;
+	margin: 0 auto;
+	padding: 60px 40px 30px 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.my-class-down{
+	background: black;
+	height: 154px;
 }
