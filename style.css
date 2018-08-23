@@ -34,7 +34,7 @@
 	font-size: 13px;
 	text-transform: uppercase;
 	margin: 30px 40px 0 40px;
-	font-family: AvenirNext, san-serif;
+	font-family: AvenirNext, sans-serif;
 	font-weight: 400;
 
 }
@@ -68,7 +68,7 @@
 	text-transform: uppercase;
 	font-size: 40px;
 	margin: 500px 0 0 40px;
-	font-family: AvenirNext, san-serif;
+	font-family: AvenirNext, sans-serif;
 	font-weight: 100;
 }
 
@@ -77,7 +77,7 @@
 	text-transform: uppercase;
 	font-size: 15px;
 	margin: 10px 0 0 200px;
-	font-family: OpenSans, san-serif;
+	font-family: OpenSans, sans-serif;
 	font-weight: 700;
 
 }
@@ -88,16 +88,20 @@
 .link-ben{
 	color: white;
 	text-decoration: none;
-	font-family:ProximaNova, san-serif;
+	font-family:ProximaNova, sans-serif;
 	font-weight: 400;
+	font-size: 15px;
+
 
 }
 .block-link{
 	color: white;
 	text-transform: none;
 	list-style: none;
-	margin: 0 auto;
-	padding: 0 30px 0 0;
+	
+	height: 240px;
+	width: 270px;
+	
 
 
 }
@@ -108,12 +112,14 @@
 .image-hover{
 	width: 794px;
 	height: 394px;
-   
+	position: relative;
+	left:0px;
+	top:0px;
 }
 .image-hover:before{
 	content:'';
 	display: block;
-	 position: absolute;
+	position: absolute;
 	width: 794px;
 	height: 394px;
 	background: rgba(0, 0, 0, 0.3);
@@ -123,11 +129,13 @@
 	position: absolute;
 	text-align: center;
 	z-index: 2;
+	left:280px;
+	top:150px;
 
 }
 .link{
 	color: #a2ca28;
-	font-family:OpenSans, san-serif;
+	font-family:OpenSans, sans-serif;
 	font-weight: 400;
 }
 
@@ -149,16 +157,16 @@
 
 
 .name{
-	font-family:OpenSans, san-serif;
+	font-family:OpenSans, sans-serif;
 	font-weight: 400;
 	text-transform: none;
 	font-size: 24px;
 }
 .name_one{
-	font-family:ProximaNova, san-serif;
+	font-family:ProximaNova, sans-serif;
 	font-weight: 400;
 	padding: 20px 15px 20px 0;
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 1.5;
 
 
@@ -177,12 +185,12 @@
 	color: #fd634e;
 	font-size: 14px;
 	text-transform: uppercase;
-	font-family:OpenSans, san-serif;
+	font-family:OpenSans, sans-serif;
 	font-weight: 100;
 
 }
 .name_two{
-	font-family:OpenSans, san-serif;
+	font-family:OpenSans, sans-serif;
 	font-weight: 400;
 	padding: 20px 0px 10px 0px;
 	font-size: 15px;
@@ -194,7 +202,7 @@
 	color: #83969f;
 	padding: 10px 20px 10px 20px;
 	font-size: 14px;
-	font-family:ProximaNova, san-serif;
+	font-family:ProximaNova, sans-serif;
 	font-weight: 400;
 	width: 200px;
 
@@ -203,7 +211,7 @@
 	color: #83969f;
 	padding: 10px 20px 10px 20px;
 	font-size: 14px;
-	font-family:ProximaNova, san-serif;
+	font-family:ProximaNova, sans-serif;
 	font-weight: 400;
 	width: 330px;
 
@@ -216,7 +224,7 @@
 	background: #a2ca28;
 	font-size: 15px;
 	padding: 10px 20px 10px 20px;
-	font-family:ProximaNova, san-serif;
+	font-family:ProximaNova, sans-serif;
 	font-weight: 400; 
 	color: white;
 	width: 183px;
@@ -226,7 +234,7 @@
 	color: #a2ca28;
 	font-size: 35px;
 	text-transform: uppercase;
-	font-family:OpenSans, san-serif;
+	font-family:OpenSans, sans-serif;
 	font-weight: 100;
 }
 
@@ -238,6 +246,9 @@
 	margin: 0 auto;
 	padding: 0 40px 0px 50px;
 	
+}
+.distance{
+	margin: 0 10px 0 0;
 }
 .icon{
 	width: 50px;
@@ -264,27 +275,33 @@
 }
 .icon-fb:before{
 	
-	background: ./images/fb.png;
+	background:url('./images/fb.png');
 	background-size: 24px 24px;
 
 	width: 24px;
 	height: 24px;
+	position: absolute;
+	top: 15px;
+	left:15px;
+
 	
-	margin: -12px 0 0 -12px;
 
 }
 .icon-tw{
 	background: #199ed0;
+	
 
 }
 .icon-tw:before{
 	
-	background: ./images/tw.png;
+	background:url( ./images/tw.png);
 	background-size: 20px 20px;
 	width: 20px;
 	height: 20px;
+	position: absolute;
+	top: 15px;
+	left:15px;
 	
-	margin: -10px 0 0 -10px;
 
 }
 .icon-yt{
@@ -293,26 +310,30 @@
 }
 .icon-yt:before{
 	
-	background: ./images/yt.png;
+	background:url(./images/yt.png); 
 	background-size: 24px 24px;
 	width: 24px;
 	height: 24px;
+	position: absolute;
+	top: 12px;
+	left:14px;
 	
-	margin: -12px 0 0 -12px;
 
 }
-.icon-in{
+.icon-In{
 	background: #171a8f;
 
 }
-.icon-in:before{
+.icon-In:before{
 	
-	background: ./images/In.png;
+	background:url(./images/ln.png); 
 	background-size: 24px 24px;
 	width: 24px;
 	height: 24px;
+	position: absolute;
+	top: 10px;
+	left:15px;
 	
-	margin: -12px 0 0 -12px;
 
 }
 
@@ -327,5 +348,5 @@
 
 .my-class-down{
 	background: black;
-	height: 154px;
+	
 }
