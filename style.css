@@ -28,7 +28,11 @@
 	src: url("./fonts/OpenSans/OpenSans-Light.ttf");
 	font-family:OpenSans;
 	font-weight: 100;
-}	
+
+}
+.border	{
+	min-width: 1000px;
+}
 .menu-link {
 	
 	font-size: 13px;
@@ -48,7 +52,7 @@
 
 }
  .navigation{
- 	      margin: 19px 70px 0 0;
+ 	      margin: 19px 67px 0 0;
  }
 
 .menu{
@@ -104,14 +108,10 @@
 
 }
 .block-link{
-	color: white
-	text-transform: none;
-	list-style: none;
 	
-	height: 240px;
+	list-style: none;
 	width: 270px;
 	
-
 
 }
 
@@ -162,7 +162,7 @@
 .block{
 	display: flex;
 	justify-content: space-between;
-	padding: 74px 11px 0px 11px;
+	padding: 112px 11px 0 11px;
 	width: 1188px;
 	margin: 0 auto;
 }
@@ -224,7 +224,7 @@
     padding: 40px 40px 50px 40px;
 	text-align: center;
 	background: #fff;
-	    margin: 0 0 5px 2px;
+	  
 } 
 .title-one{
 	color: #fd634e;
@@ -241,7 +241,7 @@
 .name_two{
 	font-family:OpenSans, sans-serif;
 	font-weight: 400;
-	padding: 29px 0px 16px 0;
+	padding: 0 0px 5px 0;
     font-size: 13px;
     line-height: 2;
 	color:#656e74;
@@ -347,14 +347,14 @@
 }
 .icon-fb:before{
 	
-	background:url('./images/fb.png');
-	background-size: 20px 20px;
+	background:url(./images/fb.png);
+	background-size: 11px 19px;
 
-	width: 20px;
-	height: 20px;
+	width: 11px;
+	height: 19px;
 	position: absolute;
-	top: 15px;
-	left:15px;
+	top: 16px;
+	left:18px;
 
 	
 
@@ -367,12 +367,12 @@
 .icon-tw:before{
 	
 	background:url( ./images/tw.png);
-	background-size: 20px 20px;
-	width: 20px;
-	height: 20px;
+	background-size: 19px 16px;
+	width: 19px;
+	height: 16px;
 	position: absolute;
-	top: 15px;
-	left:15px;
+	top: 17px;
+	left:17px;
 	
 
 }
@@ -383,11 +383,11 @@
 .icon-yt:before{
 	
 	background:url(./images/yt.png); 
-	background-size: 24px 24px;
-	width: 24px;
-	height: 24px;
+	background-size: 21px 16px;
+	width: 21px;
+	height: 16px;
 	position: absolute;
-	top: 12px;
+	top: 17px;
 	left:14px;
 	
 
@@ -399,12 +399,12 @@
 .icon-In:before{
 	
 	background:url(./images/ln.png); 
-	background-size: 24px 24px;
+	background-size: 19px 19px;
 	width: 24px;
 	height: 24px;
 	position: absolute;
-	top: 10px;
-	left:15px;
+	top: 15px;
+	left:17px;
 	
 
 }
@@ -413,7 +413,7 @@
 .container{
 	width: 1188px;
 	margin: 0 auto;
-	padding: 69px 0px 50px 60px;
+	padding: 69px 0px;
 	display: flex;
 	
 }
