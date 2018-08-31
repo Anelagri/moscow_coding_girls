@@ -162,7 +162,7 @@
 .block{
 	display: flex;
 	justify-content: space-between;
-	padding: 112px 11px 0 11px;
+	padding: 112px 11px 118px 11px;
 	width: 1188px;
 	margin: 0 auto;
 }
@@ -400,8 +400,8 @@
 	
 	background:url(./images/ln.png); 
 	background-size: 19px 19px;
-	width: 24px;
-	height: 24px;
+	width: 19px;
+	height:19px;
 	position: absolute;
 	top: 15px;
 	left:17px;
