@@ -1,4 +1,10 @@
-function checkNameValue(event){
+
+function CheckFormValues(event){
+	event.preventDefault();
+
+
+
+function CheckNameValue(event){
 event.preventDefault();
 
 
@@ -14,7 +20,7 @@ if (nameValue === ''){
 }
 }
 
-function checkEmailValue(event){
+function CheckEmailValue(event){
 event.preventDefault();
 
 var email = document.getElementById("email");
@@ -26,12 +32,24 @@ if (emailValue === ''){
 	
 }
 }
-var button = document.getElementById("send");
-button.addEventListener ("click", checkNameValue);
-button.addEventListener ("click", checkEmailValue);
-
-
 
 var text=("Спасибо,Ваше сообщение отправлено!");
 alert(text);
+}
+var button = document.getElementById("send");
+button.addEventListener ("click", CheckFormValues);
+
+
+
+if (form.style.border === '1px solid red'){ 
+document.getElementById("form").style.display = "block";
+}
+else{
+	form.style.border === '1px solid black'
+
+document.getElementById("form").style.display = "none";
+}
+
+
+
 
